@@ -1,0 +1,182 @@
+[
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "LeakCheckAPI",
+        "importPath": "leakcheck",
+        "description": "leakcheck",
+        "isExtraImport": true,
+        "detail": "leakcheck",
+        "documentation": {}
+    },
+    {
+        "label": "platform",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "platform",
+        "description": "platform",
+        "detail": "platform",
+        "documentation": {}
+    },
+    {
+        "label": "datetime;",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init; init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init; init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Pool",
+        "importPath": "aiomultiprocess",
+        "description": "aiomultiprocess",
+        "isExtraImport": true,
+        "detail": "aiomultiprocess",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "RUNING",
+        "importPath": "client",
+        "description": "client",
+        "isExtraImport": true,
+        "detail": "client",
+        "documentation": {}
+    },
+    {
+        "label": "RUNING",
+        "kind": 6,
+        "importPath": "client.working",
+        "description": "client.working",
+        "peekOfCode": "class RUNING:\n    def __init__(self,username,counter,followers,following,images, leak_auth_key):\n        self.username = username\n        self.counter = counter\n        self.leak_auth_key = leak_auth_key\n        self.version = \"1.0.2\"\n        self.session = aiohttp.ClientSession()\n        self.timeouts = 20\n        self.followers = followers\n        self.following = following",
+        "detail": "client.working",
+        "documentation": {}
+    },
+    {
+        "label": "PU",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "PU = []\nwith open('username.txt', 'a+' , encoding='utf-8') as username:\n    username.seek(0)\n    for i, line in enumerate(username, start=1):\n        line = line.rstrip()\n        PU.append(f'{i}:{line}')\nasync def main(data):\n    try:\n        leak_auth_key = '08a30f79fa03bb5912128352f698c107fdeeef32'\n        counter= data.split(':')[0]",
+        "detail": "main",
+        "documentation": {}
+    }
+]
